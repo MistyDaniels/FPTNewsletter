@@ -68,7 +68,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #aa0000;
   color: white;
 }
 
@@ -85,6 +85,7 @@ body {
 }
 
 /* Responsive navigation menu (for mobile devices) */
+
 @media screen and (max-width: 600px) {
   .topnav a, .topnav-right {
     float: none;
@@ -107,6 +108,6 @@ body {
   bottom: 0;
   width: 100%;
   background-color: black;
-  color: white;
+  color: #aa0000;
   text-align: center;
 }
