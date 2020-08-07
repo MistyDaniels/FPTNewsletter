@@ -41,6 +41,7 @@ body, html {
 }
 
 /**Menu Bar**/
+body {margin:0;}
 
 .navbar {
   overflow: hidden;
