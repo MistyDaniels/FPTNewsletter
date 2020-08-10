@@ -173,3 +173,25 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
+
+/*columns in contact*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
