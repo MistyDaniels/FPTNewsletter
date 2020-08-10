@@ -184,7 +184,7 @@ input[type=submit]:hover {
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 50%;
+  max-width: 500px;
   padding: 10px;
   height: 300px;
 }
