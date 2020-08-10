@@ -195,3 +195,41 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
+
+/*Home page alerts*/
+
+div.ad1 {
+  max-width:500px;
+  margin: auto;
+  padding: 10px;
+  border: 3px solid #aa0000;
+  text-align: center;
+  background-color: #777777;
+}
+
+div.ad2 {
+  max-width:500px;
+  margin: auto;
+  padding: 10px;
+  border: 3px solid #aa0000;
+  text-align: center;
+  background-color: #888888;
+}
+
+div.ad3 {
+  max-width:500px;
+  margin: auto;
+  padding: 10px;
+  border: 3px solid #aa0000;
+  text-align: center;
+  background-color: #777777;
+}
+
+div.ad4 {
+  max-width:500px;
+  margin: auto;
+  padding: 10px;
+  border: 3px solid #aa0000;
+  text-align: center;
+  background-color: #888888;
+}
