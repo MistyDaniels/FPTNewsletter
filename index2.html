@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/styles2.css">
-    <script src="jquery-3.5.1.min.js"></script>
+    <script src="libs/jquery-3.5.1.min.js"></script>
 </head>
 <body>
 
@@ -27,7 +27,7 @@
 
       <!-- Centered link -->
       <div class="topnav-centered">
-        <a href="pages/index.html" class="active">Home</a>
+        <a href="index.html" class="active">Home</a>
       </div>
 
       <!-- Left-aligned links (default) -->
@@ -40,15 +40,25 @@
         <a href="pages/faq.html">FAQ</a>
       </div>
     </ul>
-  <select>
-    <option value="" selected="selected">Menu</option>
+    <div class="navbar">
 
-    <option value="index.html">Home</option>
-    <option value="pages/latestissue.html">Latest Issue</option>
-    <option value="pages/archive.html">Archive</option>
-    <option value="pages/contact.html">Contact Us</option>
-    <option value="pages/faq.html">FAQ</option>
-  </select>
+    <form id="page-changer" action="" method="post">
+        <select name="dropbtn">
+            <option value=""><button class="droptbtn">Menu</option>
+              <i class ="fa fa-caret-down"></i>
+          </button>
+            <option value="index.html">Home</option>
+            <option value="pages/latestIssuehtml">Latest Issue</option>
+            <option value="pages/archive.html">Archive</option>
+    	      <option value="pages/contact.html">Contact Us</option>
+    	      <option value="pages/faq.html">FAQ</option>
+        </select>
+
+
+
+    </form>
+
+
 
 </nav>
     <!-- End menu -->
